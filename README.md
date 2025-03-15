@@ -28,16 +28,11 @@ CV Matcher is an AI-powered tool designed to match resumes (CVs) with job descri
 ---
 
 ## **Installation**
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/cv-matcher.git
-   cd cv-matcher
-   ```
-2. Install Dependencies:
+`. Install Dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-3. Download Spacy's English Model:
+2. Download Spacy's English Model:
    ```bash
    python -m spacy download en_core_web_sm
    ```
