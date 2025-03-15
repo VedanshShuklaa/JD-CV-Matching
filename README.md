@@ -28,7 +28,7 @@ CV Matcher is an AI-powered tool designed to match resumes (CVs) with job descri
 ---
 
 ## **Installation**
-`. Install Dependencies:
+1. Install Dependencies:
    ```bash
    pip install -r requirements.txt
    ```
