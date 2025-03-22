@@ -3,6 +3,10 @@ A model that matches a given Job Description with multiple CVs to pick out the b
 
 CV Matcher is an AI-powered tool designed to match resumes (CVs) with job descriptions using advanced Natural Language Processing (NLP) techniques. It evaluates candidates based on skills, experience, education, projects, and achievements, providing a comprehensive score to help recruiters and hiring managers identify the best-fit candidates.
 
+Made for ByteRunners Hackathon hosted by Griphic in IIT Delhi.
+
+Presentation Link : https://docs.google.com/presentation/d/1FSIq27ID1_RZ8oERefp5ol6BN1nxKj3e8bi_06Popdw/edit?usp=sharing
+
 ---
 
 ## **Features**
@@ -13,14 +17,14 @@ CV Matcher is an AI-powered tool designed to match resumes (CVs) with job descri
 - **Keyword Matching**: Matches exact keywords and their synonyms.
 - **Seniority Detection**: Detects seniority levels (entry, mid, senior, management) from text.
 - **Skill Depth Analysis**: Measures the depth of expertise for each skill mentioned.
-- **Batch Processing**: Processes multiple resumes in bulk and generates a ranked list of candidates.
+- **Batch Processing**: Processes multiple resumes in bulk and generates a ranked list of candidates. (Not yet implemented)
 
 ---
 
 ## **How It Works**
 1. **Preprocessing**: Extracts text from PDF, DOCX, or plain text files.
 2. **Section Parsing**: Identifies and extracts key sections like Skills, Experience, Education, etc.
-3. **Skill Extraction**: Uses regex patterns and spaCy's NLP pipeline to extract skills.
+3. **Skill Extraction**: Uses regex patterns and spaCy's NLP pipeline to extract skills. (To-Do : Implement a custom NER model)
 4. **Embedding Generation**: Generates sentence embeddings using DistilBERT.
 5. **Matching Algorithm**: Combines keyword matching, semantic similarity, and embedding-based matching to compute scores.
 6. **Ranking**: Ranks candidates based on their total match score.
